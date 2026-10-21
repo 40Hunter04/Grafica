@@ -40,13 +40,13 @@
 
 ## 📋 Статус и реестр лабораторных работ
 
-| № | Название и тематика работы | Проект C++Builder | Отчёт (.docx) | Репозиторий GitHub | Статус |
+| № | Название и тематика работы | Проект C++Builder | Отчёт (.docx) | Репозиторий GitHub |
 |:---:|---|---|---|---|:---:|
-| **1** | Стохастическое 3D-моделирование точечных и сферических ансамблей (GLScene) | [`labs/lab1/project/RandomStars.cbproj`](labs/lab1/project/RandomStars.cbproj) | [`Л1 Селезнев.docx`](reports/Л1%20Селезнев.docx) | [bsu-tokm-lab1](https://github.com/seleznev-m/bsu-tokm-lab1) | **СДАНО** |
-| **2** | Трехмерная модель и кинематика звездного каталога HYG Database | [`labs/lab2/project/HygViewer.cbproj`](labs/lab2/project/HygViewer.cbproj) | [`Л2 Селезнев.docx`](reports/Л2%20Селезнев.docx) | [bsu-tokm-lab2](https://github.com/seleznev-m/bsu-tokm-lab2) | **СДАНО** |
-| **3** | Вычислительная геометрия сеток Делоне и полиэдров Вороного (TetGen 1.5) | [`labs/lab3/viewer/TetraVor_l3.cbproj`](labs/lab3/viewer/TetraVor_l3.cbproj) | [`Л3 Селезнев.docx`](reports/Л3%20Селезнев.docx) | [bsu-tokm-lab3](https://github.com/seleznev-m/bsu-tokm-lab3) | **СДАНО** |
-| **4** | Топологическое сеточное моделирование звезд окрестности Солнца (500 св. лет) | [`labs/lab4/project/TetraVor_l4.cbproj`](labs/lab4/project/TetraVor_l4.cbproj) | [`Л4 Селезнев.docx`](reports/Л4%20Селезнев.docx) | [bsu-tokm-lab4](https://github.com/seleznev-m/bsu-tokm-lab4) | **СДАНО** |
-| **5** | Численное моделирование механики твердых тел и кинематических пар (Newton) | [`labs/lab5/project/PhysicsSandbox.cbproj`](labs/lab5/project/PhysicsSandbox.cbproj) | [`Л5 Селезнев.docx`](reports/Л5%20Селезнев.docx) | [bsu-tokm-lab5](https://github.com/seleznev-m/bsu-tokm-lab5) | **СДАНО** |
+| **1** | Стохастическое 3D-моделирование точечных и сферических ансамблей (GLScene) | [`labs/lab1/project/RandomStars.cbproj`](labs/lab1/project/RandomStars.cbproj) | [`Л1 Селезнев.docx`](reports/Л1%20Селезнев.docx) | [bsu-tokm-lab1](https://github.com/seleznev-m/bsu-tokm-lab1) |
+| **2** | Трехмерная модель и кинематика звездного каталога HYG Database | [`labs/lab2/project/HygViewer.cbproj`](labs/lab2/project/HygViewer.cbproj) | [`Л2 Селезнев.docx`](reports/Л2%20Селезнев.docx) | [bsu-tokm-lab2](https://github.com/seleznev-m/bsu-tokm-lab2) |
+| **3** | Вычислительная геометрия сеток Делоне и полиэдров Вороного (TetGen 1.5) | [`labs/lab3/viewer/TetraVor_l3.cbproj`](labs/lab3/viewer/TetraVor_l3.cbproj) | [`Л3 Селезнев.docx`](reports/Л3%20Селезнев.docx) | [bsu-tokm-lab3](https://github.com/seleznev-m/bsu-tokm-lab3) |
+| **4** | Топологическое сеточное моделирование звезд окрестности Солнца (500 св. лет) | [`labs/lab4/project/TetraVor_l4.cbproj`](labs/lab4/project/TetraVor_l4.cbproj) | [`Л4 Селезнев.docx`](reports/Л4%20Селезнев.docx) | [bsu-tokm-lab4](https://github.com/seleznev-m/bsu-tokm-lab4) |
+| **5** | Численное моделирование механики твердых тел и кинематических пар (Newton) | [`labs/lab5/project/PhysicsSandbox.cbproj`](labs/lab5/project/PhysicsSandbox.cbproj) | [`Л5 Селезнев.docx`](reports/Л5%20Селезнев.docx) | [bsu-tokm-lab5](https://github.com/seleznev-m/bsu-tokm-lab5) |
 
 ---
 
