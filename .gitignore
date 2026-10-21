@@ -1,0 +1,71 @@
+# ==============================================================================
+# Embarcadero C++Builder / RAD Studio Build Artifacts & Intermediate Files
+# ==============================================================================
+**/Win32/
+**/Win64/
+**/Debug/
+**/Release/
+**/Debug_Build/
+**/Release_Build/
+__history/
+__recovery/
+
+*.obj
+*.o
+*.#*
+*.tds
+*.pch
+*.ilc
+*.ild
+*.ilf
+*.ils
+*.map
+*.dcu
+*.identcache
+*.stat
+*.local
+*.pdi
+*.~*
+*.bak
+*.tmp
+*.res
+
+# ==============================================================================
+# Executables & Binaries (exclude compiled outputs, preserve required runtime tools)
+# ==============================================================================
+*.exe
+!labs/lab3/data/tetgen.exe
+!labs/lab4/data/tetgen.exe
+
+*.dll
+!labs/lab5/newton_dll/newton.dll
+
+# ==============================================================================
+# Report Generation & Internal Automation Files
+# ==============================================================================
+scripts/
+student_manifest.json
+.lab_config.json
+**/report_data.json
+**/report_images/
+labs/lab3_test/
+labs/**/*.docx
+КАК_ЗАГРУЗИТЬ_В_GIT.md
+GIT_INSTRUCTIONS.md
+
+# ==============================================================================
+# IDE, Editor & OS Service Files
+# ==============================================================================
+.vscode/
+.vs/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Python Cache & Envs
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+.env

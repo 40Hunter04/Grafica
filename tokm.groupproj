@@ -1,0 +1,72 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{8F2A1C3E-9B4D-4521-8E3F-7A6B5C4D3E2F}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="labs\lab1\project\RandomStars.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="labs\lab2\project\HygViewer.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="labs\lab3\viewer\TetraVor_l3.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="labs\lab4\project\TetraVor_l4.cbproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="RandomStars">
+        <MSBuild Projects="labs\lab1\project\RandomStars.cbproj"/>
+    </Target>
+    <Target Name="RandomStars:Clean">
+        <MSBuild Projects="labs\lab1\project\RandomStars.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RandomStars:Make">
+        <MSBuild Projects="labs\lab1\project\RandomStars.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="HygViewer">
+        <MSBuild Projects="labs\lab2\project\HygViewer.cbproj"/>
+    </Target>
+    <Target Name="HygViewer:Clean">
+        <MSBuild Projects="labs\lab2\project\HygViewer.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="HygViewer:Make">
+        <MSBuild Projects="labs\lab2\project\HygViewer.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="TetraVor_l3">
+        <MSBuild Projects="labs\lab3\viewer\TetraVor_l3.cbproj"/>
+    </Target>
+    <Target Name="TetraVor_l3:Clean">
+        <MSBuild Projects="labs\lab3\viewer\TetraVor_l3.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TetraVor_l3:Make">
+        <MSBuild Projects="labs\lab3\viewer\TetraVor_l3.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="TetraVor_l4">
+        <MSBuild Projects="labs\lab4\project\TetraVor_l4.cbproj"/>
+    </Target>
+    <Target Name="TetraVor_l4:Clean">
+        <MSBuild Projects="labs\lab4\project\TetraVor_l4.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TetraVor_l4:Make">
+        <MSBuild Projects="labs\lab4\project\TetraVor_l4.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="RandomStars;HygViewer;TetraVor_l3;TetraVor_l4"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="RandomStars:Clean;HygViewer:Clean;TetraVor_l3:Clean;TetraVor_l4:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="RandomStars:Make;HygViewer:Make;TetraVor_l3:Make;TetraVor_l4:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
