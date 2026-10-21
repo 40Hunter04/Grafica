@@ -41,7 +41,7 @@
 ## 📋 Статус и реестр лабораторных работ
 
 | № | Название и тематика работы | Проект C++Builder | Отчёт (.docx) | Репозиторий GitHub |
-|:---:|---|---|---|---|:---:|
+|:---:|---|---|---|:---:|
 | **1** | Стохастическое 3D-моделирование точечных и сферических ансамблей (GLScene) | [`labs/lab1/project/RandomStars.cbproj`](labs/lab1/project/RandomStars.cbproj) | [`Л1 Селезнев.docx`](reports/Л1%20Селезнев.docx) | [bsu-tokm-lab1](https://github.com/seleznev-m/bsu-tokm-lab1) |
 | **2** | Трехмерная модель и кинематика звездного каталога HYG Database | [`labs/lab2/project/HygViewer.cbproj`](labs/lab2/project/HygViewer.cbproj) | [`Л2 Селезнев.docx`](reports/Л2%20Селезнев.docx) | [bsu-tokm-lab2](https://github.com/seleznev-m/bsu-tokm-lab2) |
 | **3** | Вычислительная геометрия сеток Делоне и полиэдров Вороного (TetGen 1.5) | [`labs/lab3/viewer/TetraVor_l3.cbproj`](labs/lab3/viewer/TetraVor_l3.cbproj) | [`Л3 Селезнев.docx`](reports/Л3%20Селезнев.docx) | [bsu-tokm-lab3](https://github.com/seleznev-m/bsu-tokm-lab3) |
